@@ -1,7 +1,7 @@
 {
   "name": "framesg",
-  "version": "0.1.0",
-  "description": "request/response-style communication to/from iframes",
+  "version": "0.1.1",
+  "description": "request/response communication to/from iframes",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
