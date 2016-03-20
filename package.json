@@ -1,6 +1,6 @@
 {
   "name": "framesg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "request/response communication to/from iframes",
   "main": "build/index.js",
   "scripts": {
