@@ -23,7 +23,7 @@ const parentFrame = new Framesg(window.parent, 'my-app', {
 
 });
 ```
-The first argument is the window/iframe to communicate with (typically `window.parent` within an iframe, and `iframeEl.contentWindow` within a parent where `iframeEl` is the iframe's DOM element). The second argument (`'my-channel'` in the example above) is a user-supplied namespace. The third argument is an object mapping endpoint names to handler functions.
+The first argument is the window/iframe to communicate with (typically `window.parent` within an iframe, and `iframeEl.contentWindow` within a parent where `iframeEl` is the iframe's DOM element). The second argument (`'my-app'` in the example above) is a user-supplied namespace. The third argument is an object mapping endpoint names to handler functions.
 
 Send a message to another frame:
 ```javascript
