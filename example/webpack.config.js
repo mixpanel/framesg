@@ -1,7 +1,10 @@
 const webpackConfig = {
-  entry: './index.js',
+  entry: {
+    'parent': './parent.js',
+    'child': './child.js',
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
   },
 };
 

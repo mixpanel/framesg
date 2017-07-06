@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>framesg iframe-communication example</title>
-    <script src="bundle.js"></script>
   </head>
   <body>
     <p>Parent frame</p>
-    <iframe src="child.html">fallback content</iframe>
+    <iframe id="child-frame" src="child.html">fallback content</iframe>
+    <script src="parent.bundle.js"></script>
   </body>
 </html>
