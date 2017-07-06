@@ -5,7 +5,10 @@
     <title>framesg iframe-communication example</title>
   </head>
   <body>
-    <p>Parent frame</p>
+    <div>
+      <p>Parent frame</p>
+      <button id="child-msg-button">Send message to child frame</button>
+    </div>
     <iframe id="child-frame" src="child.html">fallback content</iframe>
     <script src="parent.bundle.js"></script>
   </body>
